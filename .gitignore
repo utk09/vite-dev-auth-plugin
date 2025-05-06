@@ -38,3 +38,6 @@ Thumbs.db
 
 # npm
 *.tgz
+
+# custom
+custom/

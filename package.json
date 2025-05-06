@@ -1,6 +1,6 @@
 {
   "name": "@utk09/vite-dev-auth-plugin",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "type": "module",
   "description": "Silent SSO & cookie proxy for local Vite development",
   "keywords": [
@@ -14,6 +14,9 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "author": "utk09-NCL",
   "license": "GPL-3.0-only",
   "peerDependencies": {
@@ -37,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/utk09/vite-dev-auth-plugin.git"
+    "url": "https://github.com/utk09/vite-dev-auth-plugin.git"
   }
 }
